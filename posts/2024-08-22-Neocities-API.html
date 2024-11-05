@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">    
+  </head>
+  <body>
+    <div id="container">
+    <div id="header">...</div>
+    <div id="content">
+      <h1 id="postTitleH1"></h1>
+      <h4 id="postDate"></h4>
+      
+      <p>
+        Pues por lo visto Neocities tiene una API con la que puedes olvidarte de la ardua tareas de arrastrar ficheros al navegador.
+        Pero la implementación creo que se me queda un poco corta.
+      </p>
+        
+        <p>
+            Mi idea en un principio era automatizar para que al hacer un git push se sincronizara la repo (alojada por ej en Github)
+            con Neocities pero al parecer eso va a ser un poco más dificil de lo que pensaba. He visto que la API tiene un módulo
+            para Python (igual que para otros muchos lenguajes) y me he decidido hacer un pequeño script para (por el momento) facilitar
+            la subida de posts.
+        </p>
+
+        <p>
+            Problema: La única implementación para subir ficheros es está función:
+        </p>
+        <p>
+            Ya se que te esperabas una función pero de lo que me acabo de dar cuenta es de que necesito poder incrustar markdown en HTML.
+            Tampoco estoy contendo con escribir en el visual studio code pero de nvim hablaremos en otra ocasión.
+        </p>
+
+      <h5>Más ideas de las que hablaremos</h5>
+      <ul>
+        <li> 
+            Markdown en HTML
+        </li>
+        <li>
+            Configurando Nvim para escribir en Neocities
+        </li>
+      </ul>
+      
+      
+    <div id="nextprev"></div>
+    </div> <!-- end of div id="content" -->
+    <div id="footer"></div>
+    </div> <!-- end of div id="container" -->
+  <!-- Here's the link to our JavaScript! -->
+  <script src="../script.js"></script>
+  </body>
+</html>
