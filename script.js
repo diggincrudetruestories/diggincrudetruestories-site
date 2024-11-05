@@ -35,7 +35,8 @@ let postsArray = [
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
 [ "posts/2024-08-22-Neocities-API.html" ],
-[ "posts/2024-08-21-Porque-un-blog.html" ]];
+[ "posts/2024-08-21-Porque-un-blog.html" ],
+[ "posts/2024-11-06-He-vuelto.html" ]];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
